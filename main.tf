@@ -6,5 +6,5 @@ resource "aws_instance" "ec2-via-pipeline" {
   instance_type = "t2.micro"
   tags = {
     Name = "jenkins-pipeline"
-}
+  }
 }
